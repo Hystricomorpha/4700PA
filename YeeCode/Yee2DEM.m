@@ -242,8 +242,6 @@ for i = 1:nSteps
        
 
         if bc{k}.NumS > 0
-            Einc = 0;
-            Eincp = 0;
 
             for p = 1:bc{k}.NumS
                 Einc = bc{k}.s(p).fct(yC{k},i,t,bc{k}.s(p).paras);
